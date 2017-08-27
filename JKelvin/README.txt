@@ -1,5 +1,5 @@
 JKelvin credits
 ---------------
-Made by Kelvin
+Made by Kelvin [ fantasygamery ]
 Is in alpha
 ---------------
