@@ -1,4 +1,4 @@
-module.exports=function(asd,need = true){
+function e(asd,need = true){
     if (asd === undefined || asd === null && need) {return console.log('Specify element');}
     else if (asd !== null){ 
     if (asd.substring(0,1)=='#'){
@@ -33,17 +33,6 @@ module.exports=function(asd,need = true){
     catch(z){console.log(z);}
     };
     
-    this.log = function(ss){
-        console.log(ss)
-    };
- 
-    this.get = function(url){
-        var ht = new XMLHttpRequest();
-        ht.open("GET",url,false);
-        ht.send(null);
-        return ht.responseText;      
-    };
-
     return this;
     }
     
