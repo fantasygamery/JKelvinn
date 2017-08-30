@@ -1,3 +1,4 @@
+(function(){
 function e(asd,need = true){
     if (asd === undefined || asd === null && need) {return console.log('Specify element');}
     else if (asd !== null){ 
@@ -34,6 +35,6 @@ function e(asd,need = true){
     };
     
     return this;
-    }
+    }})();
     
     
