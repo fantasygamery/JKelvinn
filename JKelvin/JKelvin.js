@@ -1,6 +1,6 @@
 
 function e(asd,need = true){
-    if (asd === undefined || asd === null && need) {return console.log('Specify element');}
+    if (asd === undefined || asd === null && need) {return;}
     else if (asd !== null){ 
     if (asd.substring(0,1)=='#'){
     elem = document.getElementById(asd.substring(1));
