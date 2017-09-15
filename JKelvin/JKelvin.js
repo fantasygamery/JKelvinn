@@ -36,4 +36,3 @@ function e(asd,need = true){
     
     return this;
     }
-e()
