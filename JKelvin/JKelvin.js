@@ -1,5 +1,5 @@
 
-function e(asd,need = true){
+window.e=function(asd,need = true){
     if (asd === undefined || asd === null && need) {return;}
     else if (asd !== null){ 
     if (asd.substring(0,1)=='#'){
